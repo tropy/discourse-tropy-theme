@@ -1,0 +1,27 @@
+{
+  "name": "Tropy Theme",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+  },
+  "color_schemes": {
+    "Tropy Color Scheme": {
+      "primary": "232329",
+      "secondary": "ffffff",
+      "tertiary": "5c93e5",
+      "quaternary": "666b85",
+      "header_background": "ffffff",
+      "header_primary": "232329",
+      "highlight": "e6e6e6",
+      "danger": "e62e2e",
+      "success": "529900",
+      "love": "fa6c8d"
+    }
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}
