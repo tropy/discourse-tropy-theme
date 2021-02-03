@@ -277,71 +277,71 @@ ul.category-links {
 }
 
 
-/* Discourse header */
+// Discourse header
 
 .d-header {
   height: 62px; /* content-box */
   border-top: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
   box-shadow: none;
-}
+  
+  .wrap {
+    max-width: 1200px;
+  }
+  
+  .header-dropdown-toggle:nth-child(2) {
+    margin-left: 8px;
+  }
 
-.d-header .wrap {
-  max-width: 1200px;
-}
+  .header-dropdown-toggle:nth-child(3) {
+    margin-left: 12px;
+  }
+  
+  .icons .fa {
+    width: 24px;
+    height: 24px;
+  }
+  
+  #search-button svg *,
+  #toggle-hamburger-menu svg * {
+    display: none;
+  }
 
-.d-header .header-dropdown-toggle:nth-child(2) {
-  margin-left: 8px;
-}
+  #search-button svg {
+    background: url("/uploads/default/original/1X/2e92bea2acc442b832c397dbc35369d2e4c5fab9.svg") no-repeat center;
+  }
+  
+  #toggle-hamburger-menu svg {
+    background: url("/uploads/default/original/1X/59c3ab67cbd47149b87cdb790dfac5599b8687b9.svg") no-repeat center;
+  }
+  
+  #site-logo {
+    width: 36px;
+    height: 32px;
+    margin-top: 6px;
+    margin-right: 4px;
+  }
 
-.d-header .header-dropdown-toggle:nth-child(3) {
-  margin-left: 12px;
-}
+  #site-text-logo {
+    display: none;
+  }
 
-.d-header .icons .fa {
-  width: 24px;
-  height: 24px;
-}
+  button.login-button {
+    margin-left: 8px;
+  }
 
-#search-button svg *,
-#toggle-hamburger-menu svg * {
-  display: none;
-}
-
-#search-button svg {
-  background: url("/uploads/default/original/1X/2e92bea2acc442b832c397dbc35369d2e4c5fab9.svg") no-repeat center;
-}
-
-#toggle-hamburger-menu svg {
-  background: url("/uploads/default/original/1X/59c3ab67cbd47149b87cdb790dfac5599b8687b9.svg") no-repeat center;
-}
-
-.d-header #site-logo {
-  width: 36px;
-  height: 32px;
-  margin-top: 6px;
-  margin-right: 4px;
-}
-
-#site-text-logo {
-  display: none;
-}
-
-.d-header button.login-button {
-  margin-left: 8px;
-}
-
-.d-header .icons {
-  margin-left: 16px;
-}
-
-.d-header .login-button,
-.d-header button.sign-up-button {
-  margin-top: 6px;
-}
-
-#main-outlet {
-  padding-top: 136px; /* 96px to topic title x-height */
+  .icons {
+    margin-left: 16px;
+  }
+  
+  .login-button,
+  button.sign-up-button {
+    margin-top: 6px;
+  }
+  
+  #main-outlet {
+    padding-top: 136px; /* 96px to topic title x-height */
+  }
 }
 
 
