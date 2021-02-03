@@ -32,7 +32,6 @@ $header-height:        96px;
 $footer-color: $body-color;
 
 
-
 /* common/foundation/base.scss */
 
 html {
@@ -57,7 +56,7 @@ body {
 
 /* desktop/topic-list.scss */
 .wrap {
-  max-width: 1140px;
+  max-width: 995px;
 }
 
 /* common/components/navs.scss */
@@ -285,6 +284,10 @@ ul.category-links {
   border-top: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
   box-shadow: none;
+}
+
+.d-header .wrap {
+  max-width: 1200px;
 }
 
 .d-header .header-dropdown-toggle:nth-child(2) {
