@@ -60,12 +60,12 @@ body {
   }
 }
 
-/* desktop/topic-list.scss */
+// desktop/topic-list.scss
 .wrap {
   max-width: 995px;
 }
 
-/* common/components/navs.scss */
+// common/components/navs.scss
 .nav-pills > li > a {
   border-radius: 3px;
 }
@@ -308,17 +308,21 @@ ul.category-links {
     height: 24px;
   }
   
-  #search-button svg *,
-  #toggle-hamburger-menu svg * {
+  #search-button svg,
+  #toggle-hamburger-menu svg {
     display: none;
   }
 
-  #search-button svg {
-    background: url("/uploads/default/original/1X/2e92bea2acc442b832c397dbc35369d2e4c5fab9.svg") no-repeat center;
+  #search-button {
+    background-image: url("/uploads/default/original/1X/b0b2f27657675d29c68e5b4c1523c0aeb7a65259.svg");
+    background-repeat: no-repeat;
+    background-position: center;
   }
   
-  #toggle-hamburger-menu svg {
-    background: url("/uploads/default/original/1X/59c3ab67cbd47149b87cdb790dfac5599b8687b9.svg") no-repeat center;
+  #toggle-hamburger-menu {
+    background-image: url("/uploads/default/original/1X/718d5a94a0d3e4d189b5be8d90cb881aa88c460f.svg");
+    background-repeat: no-repeat;
+    background-position: center;
   }
   
   #site-logo {
