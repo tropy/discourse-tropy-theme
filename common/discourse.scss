@@ -32,14 +32,13 @@ $header-height:        96px;
 $footer-color: $body-color;
 
 
-/* common/foundation/base.scss */
+// common/foundation/base.scss
 
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
-  line-height: 20px;
 }
 
-/* common/base/discourse.scss */
+// common/base/discourse.scss
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;  
