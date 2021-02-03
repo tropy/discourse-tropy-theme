@@ -24,6 +24,9 @@ $space-xl: 32px;
 
 $sm: 768px;
 
+$section-padding-y:       128px;
+$section-padding-y-phone: 80px;
+
 $header-color:         $black;
 $z-index-header:       1010;
 $header-height-mobile: 64px;
@@ -48,9 +51,13 @@ body {
   padding: 0 16px;
 }
 
-/* common/base/topic-list.scss */
+// common/base/topic-list.scss
 #list-area {
-  margin-bottom: 0;
+  margin-bottom: $section-padding-y-phone - 6px;
+  
+  @media (min-width: $sm) {
+    margin-bottom: $section-padding-y - 6px;
+  }
 }
 
 /* desktop/topic-list.scss */
