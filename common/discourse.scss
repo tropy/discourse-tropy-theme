@@ -65,16 +65,7 @@ body {
   max-width: 995px;
 }
 
-// common/components/navs.scss
-.nav-pills > li > a {
-  border-radius: 3px;
-}
-
 // common/components/buttons.scss
-.btn {
-  border-radius: 3px;
-}
-
 .btn-primary {
   color: #fff;
 }
@@ -134,6 +125,17 @@ h1,
 .list-controls .category-breadcrumb li.bullet > .badge-category,
 .extra-info-wrapper .badge-wrapper.bullet span.badge-category {
   //color: #3d4464 !important;
+}
+
+.nav-pills > li > a,
+.btn,
+input[type="text"],
+input[type="number"],
+.select-kit-header,
+div.ac-wrap,
+.date-time-input,
+.d-date-input {
+  border-radius: 3px;
 }
 
 h1 {
