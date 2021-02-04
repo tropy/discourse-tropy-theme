@@ -103,19 +103,42 @@ body {
   border-radius: 3px;
 }
 
+// common/base/topic-post.scss
+.cooked, .d-editor-preview {
+  line-height: 1.5;
+}
+
+// common/base/modal.scss
+.modal-body .btn {
+  line-height: 1.2; // Fix vertical alignment
+}
+
 /* common/base/about.scss */
 section.about table th {
   font-weight: normal;
 }
 
-/* common/base/faqs */
-.body-page h2 {
-  font-weight: 500;
+// common/base/faqs
+.body-page {
+  margin-bottom: $section-padding-y-phone - 20px;
+  
+  @media (min-width: $sm) {
+    margin-bottom: $section-padding-y - 20px;
+  }
+  
+  .about-page & {
+    margin-bottom: $section-padding-y-phone - 45px;
+
+    @media (min-width: $sm) {
+      margin-bottom: $section-padding-y -45px;
+    }
+  }
+  
+  p {
+    line-height: 1.5;
+  }
 }
 
-.body-page p {
-  line-height: 1.5;
-}
 
 /* Misc */
 
@@ -141,13 +164,8 @@ h1 {
   font-size: 1.8em;
 }
 
-h1, h2 {
-  font-family: -apple-system, BlinkMacSystemFont, "HelveticaNeue-Light", "Helvetica Neue Light", "Segoe UI", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-}
-
-h3 {
-  font-weight: 500;
+h1, h2, h3 {
+  font-weight: 600;
 }
 
 ul.category-links {
