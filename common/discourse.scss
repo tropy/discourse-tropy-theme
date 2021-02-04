@@ -41,8 +41,9 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
-// common/base/discourse.scss
-body {
+// common/base/discourse.scss, desktop/topic-post.scss
+body,
+.posts-wrapper {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;  
 }
