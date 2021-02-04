@@ -11,16 +11,16 @@
   },
   "color_schemes": {
     "Tropy Color Scheme": {
-      "primary": "232329",
+      "primary": "101012",
       "secondary": "ffffff",
       "tertiary": "5c93e5",
-      "quaternary": "666b85",
+      "quaternary": "5c93e5",
       "header_background": "ffffff",
-      "header_primary": "232329",
-      "highlight": "e6e6e6",
-      "danger": "e62e2e",
-      "success": "529900",
-      "love": "fa6c8d"
+      "header_primary": "101012",
+      "highlight": "ffff4d",
+      "danger": "ff6666",
+      "success": "1ed760",
+      "love": "ff6666"
     }
   },
   "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"

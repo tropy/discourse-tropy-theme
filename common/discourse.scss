@@ -70,16 +70,15 @@ body {
   border-radius: 3px;
 }
 
-/* common/components/buttons.scss */
+// common/components/buttons.scss
 
 .btn {
-  color: #3d4464;
+  //color: #3d4464;
   border-radius: 3px;
 }
 
 .btn-primary {
   color: #fff;
-  border-radius: 3px;
 }
 
 /* common/components/badges.scss */
@@ -129,13 +128,13 @@ h1,
 .fa-thumb-tack.unpinned,
 .d-header .extra-info .topic-link,
 .list-controls .combo-box .combo-box-header {
-  color: #3d4464;
+  //color: #3d4464;
 }
 
 .badge-wrapper.bullet span.badge-category,
 .list-controls .category-breadcrumb li.bullet > .badge-category,
 .extra-info-wrapper .badge-wrapper.bullet span.badge-category {
-  color: #3d4464 !important;
+  //color: #3d4464 !important;
 }
 
 h1 {
