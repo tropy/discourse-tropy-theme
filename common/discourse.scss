@@ -16,21 +16,29 @@ $black:        #101012; // 8% saturation
 
 $body-color: $black;
 
+// Spacing
+
 $space-xs: 8px;
 $space-sm: 12px;
 $space-md: 16px;
 $space-lg: 24px;
 $space-xl: 32px;
 
+// Breakpoints
+
 $sm: 768px;
 
 $section-padding-y:       128px;
 $section-padding-y-phone: 80px;
 
+// Header
+
 $header-color:         $black;
 $z-index-header:       1010;
 $header-height-mobile: 64px;
 $header-height:        96px;
+
+// Footer
 
 $footer-color: $body-color;
 
@@ -50,6 +58,7 @@ body,
 
 .wrap {
   padding: 0 16px;
+  max-width: 1200px;
 }
 
 // common/base/topic-list.scss
@@ -59,11 +68,6 @@ body,
   @media (min-width: $sm) {
     margin-bottom: $section-padding-y - 6px;
   }
-}
-
-// desktop/topic-list.scss
-.wrap {
-  max-width: 995px;
 }
 
 // common/components/buttons.scss
@@ -152,19 +156,10 @@ ul.category-links {
 }
 
 .container-fluid {
-  box-sizing: border-box;
-  margin: 0 auto;
   padding: 0 16px;
   max-width: 1200px;
+  margin: 0 auto;
 }
-
-@media (min-width: 768px) {
-  .container-fluid {
-    width: 83.33%;
-    padding: 0;
-  }
-}
-
 
 // Main header
 
@@ -286,10 +281,6 @@ ul.category-links {
   border-top: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
   box-shadow: none;
-  
-  .wrap {
-    max-width: 1200px;
-  }
   
   .header-dropdown-toggle:nth-child(2) {
     margin-left: 8px;
