@@ -71,36 +71,12 @@ body {
 }
 
 // common/components/buttons.scss
-
 .btn {
-  //color: #3d4464;
   border-radius: 3px;
 }
 
 .btn-primary {
   color: #fff;
-}
-
-/* common/components/badges.scss */
-
-.badge-category {
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
-}
-
-.category-dropdown-button {
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
-}
-
-/* common/base/header.scss */
-.d-header .icons .badge-notification, .d-header .icons .ring {
-  font-family: Helvetica, Arial, sans-serif; /* Fix vertical alignment */
-}
-
-/* mobile/topic-list */
-.list-controls .nav-pills > li {
-  border-radius: 3px;
 }
 
 // common/base/topic-post.scss
@@ -111,11 +87,6 @@ body {
 // common/base/modal.scss
 .modal-body .btn {
   line-height: 1.2; // Fix vertical alignment
-}
-
-/* common/base/about.scss */
-section.about table th {
-  font-weight: normal;
 }
 
 // common/base/faqs
@@ -139,8 +110,13 @@ section.about table th {
   }
 }
 
+// common/base/about.scss
+section.about table th {
+  font-weight: normal;
+}
 
-/* Misc */
+
+// Misc
 
 body,
 h1,
@@ -169,7 +145,7 @@ h1, h2, h3 {
 }
 
 ul.category-links {
-  padding-bottom: 5px; /* Fix spacing in menu dropdown */
+  padding-bottom: 5px; // Fix spacing in menu dropdown
 }
 
 .container-fluid {
@@ -320,9 +296,16 @@ ul.category-links {
     margin-left: 12px;
   }
   
-  .icons .fa {
-    width: 24px;
-    height: 24px;
+  .icons {
+    .badge-notifications,
+    .ring {
+      font-family: Helvetica, Arial, sans-serif; // Fix vertical alignment (where?)
+    }
+    
+    .fa {
+      width: 24px;
+      height: 24px;
+    }
   }
   
   #search-button svg,
