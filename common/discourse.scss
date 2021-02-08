@@ -62,6 +62,10 @@ body,
 }
 
 // common/base/topic-list.scss
+.navigation-container {
+  padding-top: 8px; // Center vertically
+}
+
 #list-area {
   margin-bottom: $section-padding-y-phone - 6px;
   
@@ -73,6 +77,15 @@ body,
 // common/components/buttons.scss
 .btn-primary {
   color: #fff;
+}
+
+// desktop/topic.scss
+#topic-title {
+  padding-top: 8px; // 45px
+  
+  @media (min-width: $sm) {
+    padding-top: 35px; // 72px
+  }
 }
 
 // common/base/topic-post.scss
@@ -95,9 +108,11 @@ body,
 
 // common/base/faqs
 .body-page {
+  padding-top: 8px; // Center nav pills
   margin-bottom: $section-padding-y-phone - 20px;
   
   @media (min-width: $sm) {
+    padding-top: 7px;
     margin-bottom: $section-padding-y - 20px;
   }
   
@@ -350,10 +365,6 @@ ul.category-links {
   .login-button,
   button.sign-up-button {
     margin-top: 6px;
-  }
-  
-  #main-outlet {
-    padding-top: 136px; /* 96px to topic title x-height */
   }
 }
 
