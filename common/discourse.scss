@@ -80,6 +80,14 @@ body,
   line-height: 1.5;
 }
 
+.suggested-topics {
+  margin-bottom: $section-padding-y-phone - 29px;
+  
+  @media (min-width: $sm) {
+    margin-bottom: $section-padding-y - 29px;
+  }
+}
+
 // common/base/modal.scss
 .modal-body .btn {
   line-height: 1.2; // Fix vertical alignment
@@ -97,7 +105,7 @@ body,
     margin-bottom: $section-padding-y-phone - 45px;
 
     @media (min-width: $sm) {
-      margin-bottom: $section-padding-y -45px;
+      margin-bottom: $section-padding-y - 45px;
     }
   }
   
@@ -160,6 +168,7 @@ ul.category-links {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 
 // Main header
 
