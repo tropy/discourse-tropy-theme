@@ -251,6 +251,10 @@ ul.category-links {
   font-size: $font-size-base;
   line-height: $line-height-base;
 
+  [class*="touch"] & {
+    visibility: visible !important; // Avoid FOUC in Firefox
+  }
+
   @media (max-width: $sm - 1px) {
     display: none;
   }
