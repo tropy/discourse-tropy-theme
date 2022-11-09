@@ -64,6 +64,7 @@ $footer-color: $body-color;
 
 :root {
   --font-family: #{$font-family-base};
+  --heading-font-family: #{$font-family-base};
 }
 
 // common/base/discourse.scss, desktop/topic-post.scss
